@@ -1,0 +1,7 @@
+{
+    "PATIENT_ID": 12314,
+    "AGE": 1,
+    "SEX": "M",
+    "Symptomatology": "Do you have a fever (either felt or measured with a thermometer)?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

@@ -1,0 +1,8 @@
+{
+    "PATIENT_ID": 11295,
+    "AGE": 67,
+    "SEX": "M",
+    "PATHOLOGY": "viral pharyngitis",
+    "Symptomatology": "Do you feel pain somewhere?: under the jaw\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: nowhere\nCharacterize your pain:: burning\nHow fast did the pain appear?: 5\nHow intense is the pain?: 9\nHow precisely is the pain located?: 5",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N\nHave you been in contact with a person with similar symptoms in the past 2 weeks?: TRUE"
+}

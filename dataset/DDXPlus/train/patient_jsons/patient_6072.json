@@ -1,0 +1,9 @@
+{
+    "PATIENT_ID": 6072,
+    "AGE": 32,
+    "SEX": "F",
+    "PATHOLOGY": "inguinal hernia",
+    "Symptomatology": "Do you feel pain somewhere?: testicle(L)\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: nowhere\nCharacterize your pain:: heavy\nHow fast did the pain appear?: 1\nHow intense is the pain?: 7\nHow precisely is the pain located?: 3",
+    "Anamnesis": "Were you born prematurely or did you suffer any complication at birth?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

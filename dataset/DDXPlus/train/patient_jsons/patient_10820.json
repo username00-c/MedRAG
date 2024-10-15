@@ -1,0 +1,9 @@
+{
+    "PATIENT_ID": 10820,
+    "AGE": 51,
+    "SEX": "M",
+    "PATHOLOGY": "urti",
+    "Symptomatology": "Do you feel pain somewhere?: occiput\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: nowhere\nCharacterize your pain:: sensitive\nHow fast did the pain appear?: 0\nHow intense is the pain?: 7\nHow precisely is the pain located?: 1\nDo you have diffuse (widespread) muscle pain?: TRUE",
+    "Lifestyle": "Do you smoke cigarettes?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N\nHave you been in contact with a person with similar symptoms in the past 2 weeks?: TRUE"
+}

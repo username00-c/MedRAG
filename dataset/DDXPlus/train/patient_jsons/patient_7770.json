@@ -1,0 +1,10 @@
+{
+    "PATIENT_ID": 7770,
+    "AGE": 29,
+    "SEX": "M",
+    "PATHOLOGY": "panic attack",
+    "Symptomatology": "Do you feel pain somewhere?: belly\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: nowhere\nCharacterize your pain:: sharp\nHow fast did the pain appear?: 8\nHow intense is the pain?: 3\nHow precisely is the pain located?: 6",
+    "Lifestyle": "Do you drink alcohol excessively or do you have an addiction to alcohol?: TRUE",
+    "Psychopathology": "Do you feel anxious?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

@@ -1,0 +1,9 @@
+{
+    "PATIENT_ID": 3536,
+    "AGE": 34,
+    "SEX": "M",
+    "PATHOLOGY": "bronchospasm acute asthma exacerbation",
+    "Therapy": "Have you had 2 or more asthma attacks in the past year?: TRUE",
+    "Immunology": "Are you more likely to develop common allergies than the general population?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

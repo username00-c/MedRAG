@@ -1,0 +1,9 @@
+{
+    "PATIENT_ID": 12667,
+    "AGE": 40,
+    "SEX": "M",
+    "Symptomatology": "Do you feel pain somewhere?: temple(L)\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: nowhere\nCharacterize your pain:: tugging\nHow fast did the pain appear?: 7\nHow intense is the pain?: 8\nHow precisely is the pain located?: 3",
+    "Lifestyle": "Do you regularly drink coffee or tea?: TRUE",
+    "Psychopathology": "Do you feel anxious?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

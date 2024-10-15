@@ -1,0 +1,8 @@
+{
+    "PATIENT_ID": 11914,
+    "AGE": 38,
+    "SEX": "F",
+    "Symptomatology": "Do you feel pain somewhere?: nose\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: temple(R)\nCharacterize your pain:: burning\nHow fast did the pain appear?: 6\nHow intense is the pain?: 5\nHow precisely is the pain located?: 3",
+    "Lifestyle": "Do you smoke cigarettes?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

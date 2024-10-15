@@ -1,0 +1,8 @@
+{
+    "PATIENT_ID": 6485,
+    "AGE": 1,
+    "SEX": "M",
+    "PATHOLOGY": "localized edema",
+    "Symptomatology": "Do you feel pain somewhere?: sole(L)\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: nowhere\nCharacterize your pain:: heavy\nHow fast did the pain appear?: 3\nHow intense is the pain?: 6\nHow precisely is the pain located?: 6",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

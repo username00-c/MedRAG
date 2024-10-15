@@ -1,0 +1,9 @@
+{
+    "PATIENT_ID": 6679,
+    "AGE": 26,
+    "SEX": "M",
+    "PATHOLOGY": "localized edema",
+    "Symptomatology": "Do you feel pain somewhere?: dorsal aspect of the foot(L)\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: nowhere\nCharacterize your pain:: sharp\nHow fast did the pain appear?: 7\nHow intense is the pain?: 5\nHow precisely is the pain located?: 5",
+    "Therapy": "Are you currently taking or have you recently taken anti-inflammatory drugs (NSAIDs)?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

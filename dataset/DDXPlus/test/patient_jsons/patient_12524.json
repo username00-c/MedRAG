@@ -1,0 +1,8 @@
+{
+    "PATIENT_ID": 12524,
+    "AGE": 44,
+    "SEX": "M",
+    "Symptomatology": "Do you feel pain somewhere?: testicle(R)\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: nowhere\nCharacterize your pain:: heavy\nHow fast did the pain appear?: 6\nHow intense is the pain?: 6\nHow precisely is the pain located?: 5",
+    "Anamnesis": "Were you born prematurely or did you suffer any complication at birth?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

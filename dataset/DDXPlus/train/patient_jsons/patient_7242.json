@@ -1,0 +1,9 @@
+{
+    "PATIENT_ID": 7242,
+    "AGE": 56,
+    "SEX": "M",
+    "PATHOLOGY": "psvt",
+    "Symptomatology": "Do you feel pain somewhere?: back of head\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: nowhere\nCharacterize your pain:: a cramp\nHow fast did the pain appear?: 7\nHow intense is the pain?: 2\nHow precisely is the pain located?: 6",
+    "Lifestyle": "Do you consume energy drinks regularly?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

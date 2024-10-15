@@ -1,0 +1,8 @@
+{
+    "PATIENT_ID": 2035,
+    "AGE": 29,
+    "SEX": "F",
+    "PATHOLOGY": "anemia",
+    "Symptomatology": "Do you feel pain somewhere?: forehead\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: nowhere\nCharacterize your pain:: exhausting\nHow fast did the pain appear?: 5\nHow intense is the pain?: 2\nHow precisely is the pain located?: 8",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: South Africa"
+}

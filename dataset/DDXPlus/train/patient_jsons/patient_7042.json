@@ -1,0 +1,8 @@
+{
+    "PATIENT_ID": 7042,
+    "AGE": 68,
+    "SEX": "F",
+    "PATHOLOGY": "myocarditis",
+    "Symptomatology": "Do you feel pain somewhere?: breast(L)\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: nowhere\nCharacterize your pain:: sensitive\nHow fast did the pain appear?: 0\nHow intense is the pain?: 2\nHow precisely is the pain located?: 7",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

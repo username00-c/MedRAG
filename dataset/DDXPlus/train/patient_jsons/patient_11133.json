@@ -1,0 +1,9 @@
+{
+    "PATIENT_ID": 11133,
+    "AGE": 20,
+    "SEX": "M",
+    "PATHOLOGY": "unstable angina",
+    "Symptomatology": "Do you feel pain somewhere?: epigastric\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: shoulder(R)\nCharacterize your pain:: exhausting\nHow fast did the pain appear?: 7\nHow intense is the pain?: 8\nHow precisely is the pain located?: 2",
+    "Lifestyle": "Do you smoke cigarettes?: TRUE\nDo you drink alcohol excessively or do you have an addiction to alcohol?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

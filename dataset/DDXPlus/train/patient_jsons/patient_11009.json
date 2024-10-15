@@ -1,0 +1,8 @@
+{
+    "PATIENT_ID": 11009,
+    "AGE": 2,
+    "SEX": "M",
+    "PATHOLOGY": "urti",
+    "Symptomatology": "Do you feel pain somewhere?: temple(L)\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: nowhere\nCharacterize your pain:: sensitive\nHow fast did the pain appear?: 2\nHow intense is the pain?: 2\nHow precisely is the pain located?: 7",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N\nHave you been in contact with a person with similar symptoms in the past 2 weeks?: TRUE"
+}

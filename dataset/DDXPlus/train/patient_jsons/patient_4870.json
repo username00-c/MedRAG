@@ -1,0 +1,8 @@
+{
+    "PATIENT_ID": 4870,
+    "AGE": 18,
+    "SEX": "F",
+    "PATHOLOGY": "epiglottitis",
+    "Symptomatology": "Do you have a fever (either felt or measured with a thermometer)?: TRUE\nDo you feel pain somewhere?: palace\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: nowhere\nCharacterize your pain:: sharp\nHow fast did the pain appear?: 3\nHow intense is the pain?: 6\nHow precisely is the pain located?: 6",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

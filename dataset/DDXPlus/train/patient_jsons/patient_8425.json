@@ -1,0 +1,9 @@
+{
+    "PATIENT_ID": 8425,
+    "AGE": 25,
+    "SEX": "M",
+    "PATHOLOGY": "possible nstemi stemi",
+    "Symptomatology": "Do you feel pain somewhere?: breast(R)\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: shoulder(R)\nCharacterize your pain:: scary\nHow fast did the pain appear?: 6\nHow intense is the pain?: 7\nHow precisely is the pain located?: 6",
+    "Lifestyle": "Do you smoke cigarettes?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

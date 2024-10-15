@@ -1,0 +1,9 @@
+{
+    "PATIENT_ID": 5557,
+    "AGE": 16,
+    "SEX": "F",
+    "PATHOLOGY": "hiv (initial infection)",
+    "Symptomatology": "Do you have a fever (either felt or measured with a thermometer)?: TRUE\nDo you feel pain somewhere?: temple(R)\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: nowhere\nCharacterize your pain:: exhausting\nHow fast did the pain appear?: 3\nHow intense is the pain?: 8\nHow precisely is the pain located?: 5\nDo you have diffuse (widespread) muscle pain?: TRUE",
+    "Anamnesis": "Have you had sexual intercourse with an HIV-positive partner in the past 12 months?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: West Africa"
+}

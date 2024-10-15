@@ -1,0 +1,9 @@
+{
+    "PATIENT_ID": 10724,
+    "AGE": 66,
+    "SEX": "F",
+    "PATHOLOGY": "tuberculosis",
+    "Lifestyle": "Do you drink alcohol excessively or do you have an addiction to alcohol?: TRUE",
+    "Anamnesis": "Are you infected with the human immunodeficiency virus (HIV)?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

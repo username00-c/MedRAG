@@ -1,0 +1,9 @@
+{
+    "PATIENT_ID": 4830,
+    "AGE": 25,
+    "SEX": "M",
+    "PATHOLOGY": "epiglottitis",
+    "Symptomatology": "Do you feel pain somewhere?: palace\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: nowhere\nCharacterize your pain:: sharp\nHow fast did the pain appear?: 5\nHow intense is the pain?: 9\nHow precisely is the pain located?: 9",
+    "Therapy": "Do you have high blood pressure or do you take medications to treat high blood pressure?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

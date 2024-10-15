@@ -1,0 +1,7 @@
+{
+    "PATIENT_ID": 12952,
+    "AGE": 41,
+    "SEX": "M",
+    "Symptomatology": "Do you feel pain somewhere?: shoulder(L)\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: nowhere\nCharacterize your pain:: sensitive\nHow fast did the pain appear?: 5\nHow intense is the pain?: 6\nHow precisely is the pain located?: 3",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

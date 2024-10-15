@@ -1,0 +1,9 @@
+{
+    "PATIENT_ID": 7830,
+    "AGE": 47,
+    "SEX": "F",
+    "PATHOLOGY": "panic attack",
+    "Symptomatology": "Do you feel pain somewhere?: hypochondrium(R)\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: nowhere\nCharacterize your pain:: sharp\nHow fast did the pain appear?: 8\nHow intense is the pain?: 4\nHow precisely is the pain located?: 8",
+    "Psychopathology": "Do you feel anxious?: TRUE\nHave you ever been diagnosed with depression?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

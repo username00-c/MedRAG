@@ -1,0 +1,9 @@
+{
+    "PATIENT_ID": 3334,
+    "AGE": 56,
+    "SEX": "F",
+    "PATHOLOGY": "bronchitis",
+    "Symptomatology": "Do you feel pain somewhere?: posterior chest wall(L)\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: nowhere\nCharacterize your pain:: burning\nHow fast did the pain appear?: 4\nHow intense is the pain?: 5\nHow precisely is the pain located?: 5",
+    "Lifestyle": "Do you smoke cigarettes?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

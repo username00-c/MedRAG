@@ -1,0 +1,8 @@
+{
+    "PATIENT_ID": 3083,
+    "AGE": 0,
+    "SEX": "F",
+    "PATHOLOGY": "bronchiolitis",
+    "Symptomatology": "Do you have a fever (either felt or measured with a thermometer)?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

@@ -1,0 +1,7 @@
+{
+    "PATIENT_ID": 4581,
+    "AGE": 65,
+    "SEX": "M",
+    "PATHOLOGY": "ebola",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: West Africa\nIn the last month, have you been in contact with anyone infected with the Ebola virus?: TRUE\nHave you been in contact with a person with similar symptoms in the past 2 weeks?: TRUE"
+}

@@ -1,0 +1,9 @@
+{
+    "PATIENT_ID": 1275,
+    "AGE": 61,
+    "SEX": "F",
+    "PATHOLOGY": "acute rhinosinusitis",
+    "Symptomatology": "Do you feel pain somewhere?: eye(L)\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: temple(L)\nCharacterize your pain:: sharp\nHow fast did the pain appear?: 4\nHow intense is the pain?: 3\nHow precisely is the pain located?: 4",
+    "Lifestyle": "Do you smoke cigarettes?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

@@ -1,0 +1,7 @@
+{
+    "PATIENT_ID": 12641,
+    "AGE": 33,
+    "SEX": "F",
+    "Symptomatology": "Do you feel pain somewhere?: breast(R)\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: nowhere\nCharacterize your pain:: a knife stroke\nHow fast did the pain appear?: 3\nHow intense is the pain?: 4\nHow precisely is the pain located?: 7",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

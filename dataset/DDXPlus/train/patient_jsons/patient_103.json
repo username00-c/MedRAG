@@ -1,0 +1,8 @@
+{
+    "PATIENT_ID": 103,
+    "AGE": 63,
+    "SEX": "M",
+    "PATHOLOGY": "acute copd exacerbation infection",
+    "Lifestyle": "Do you smoke cigarettes?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

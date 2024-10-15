@@ -1,0 +1,9 @@
+{
+    "PATIENT_ID": 3190,
+    "AGE": 44,
+    "SEX": "M",
+    "PATHOLOGY": "bronchitis",
+    "Symptomatology": "Do you have a fever (either felt or measured with a thermometer)?: TRUE\nDo you feel pain somewhere?: side of the chest(R)\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: nowhere\nCharacterize your pain:: burning\nHow fast did the pain appear?: 0\nHow intense is the pain?: 1\nHow precisely is the pain located?: 1",
+    "Lifestyle": "Do you smoke cigarettes?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

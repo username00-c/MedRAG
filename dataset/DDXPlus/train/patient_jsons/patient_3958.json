@@ -1,0 +1,10 @@
+{
+    "PATIENT_ID": 3958,
+    "AGE": 37,
+    "SEX": "F",
+    "PATHOLOGY": "chronic rhinosinusitis",
+    "Symptomatology": "Do you feel pain somewhere?: nose\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: temple(R)\nCharacterize your pain:: sharp\nHow fast did the pain appear?: 4\nHow intense is the pain?: 3\nHow precisely is the pain located?: 7",
+    "Lifestyle": "Do you smoke cigarettes?: TRUE",
+    "Immunology": "Are you more likely to develop common allergies than the general population?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

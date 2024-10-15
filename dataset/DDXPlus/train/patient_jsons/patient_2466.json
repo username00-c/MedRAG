@@ -1,0 +1,8 @@
+{
+    "PATIENT_ID": 2466,
+    "AGE": 61,
+    "SEX": "M",
+    "PATHOLOGY": "boerhaave",
+    "Symptomatology": "Do you feel pain somewhere?: epigastric\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: scapula(L)\nCharacterize your pain:: sickening\nHow fast did the pain appear?: 8\nHow intense is the pain?: 7\nHow precisely is the pain located?: 5",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

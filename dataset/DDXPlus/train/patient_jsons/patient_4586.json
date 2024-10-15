@@ -1,0 +1,8 @@
+{
+    "PATIENT_ID": 4586,
+    "AGE": 22,
+    "SEX": "M",
+    "PATHOLOGY": "ebola",
+    "Symptomatology": "Do you have diffuse (widespread) muscle pain?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: West Africa\nIn the last month, have you been in contact with anyone infected with the Ebola virus?: TRUE"
+}

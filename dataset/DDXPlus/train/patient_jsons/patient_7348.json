@@ -1,0 +1,10 @@
+{
+    "PATIENT_ID": 7348,
+    "AGE": 78,
+    "SEX": "F",
+    "PATHOLOGY": "psvt",
+    "Symptomatology": "Do you feel pain somewhere?: top of the head\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: nowhere\nCharacterize your pain:: heavy\nHow fast did the pain appear?: 4\nHow intense is the pain?: 4\nHow precisely is the pain located?: 3",
+    "Lifestyle": "Do you consume energy drinks regularly?: TRUE",
+    "Psychopathology": "Do you feel anxious?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

@@ -1,0 +1,10 @@
+{
+    "PATIENT_ID": 8438,
+    "AGE": 46,
+    "SEX": "F",
+    "PATHOLOGY": "possible nstemi stemi",
+    "Symptomatology": "Do you feel pain somewhere?: breast(L)\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: shoulder(L)\nCharacterize your pain:: scary\nHow fast did the pain appear?: 10\nHow intense is the pain?: 8\nHow precisely is the pain located?: 6",
+    "Lifestyle": "Do you smoke cigarettes?: TRUE",
+    "Anamnesis": "Are you infected with the human immunodeficiency virus (HIV)?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

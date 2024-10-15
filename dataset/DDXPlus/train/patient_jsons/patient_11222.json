@@ -1,0 +1,8 @@
+{
+    "PATIENT_ID": 11222,
+    "AGE": 42,
+    "SEX": "F",
+    "PATHOLOGY": "unstable angina",
+    "Symptomatology": "Do you feel pain somewhere?: breast(L)\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: under the jaw\nCharacterize your pain:: exhausting\nHow fast did the pain appear?: 6\nHow intense is the pain?: 10\nHow precisely is the pain located?: 7",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

@@ -1,0 +1,8 @@
+{
+    "PATIENT_ID": 11898,
+    "AGE": 74,
+    "SEX": "F",
+    "Symptomatology": "Do you feel pain somewhere?: upper chest\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: shoulder(L)\nCharacterize your pain:: heavy\nHow fast did the pain appear?: 7\nHow intense is the pain?: 6\nHow precisely is the pain located?: 5",
+    "Therapy": "Do you have high blood pressure or do you take medications to treat high blood pressure?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

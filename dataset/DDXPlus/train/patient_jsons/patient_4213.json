@@ -1,0 +1,10 @@
+{
+    "PATIENT_ID": 4213,
+    "AGE": 38,
+    "SEX": "F",
+    "PATHOLOGY": "cluster headache",
+    "Symptomatology": "Do you feel pain somewhere?: temple(R)\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: nowhere\nCharacterize your pain:: sharp\nHow fast did the pain appear?: 9\nHow intense is the pain?: 10\nHow precisely is the pain located?: 8",
+    "Lifestyle": "Do you drink alcohol excessively or do you have an addiction to alcohol?: TRUE",
+    "Anamnesis": "Have any of your family members been diagnosed with cluster headaches?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

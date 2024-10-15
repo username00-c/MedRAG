@@ -1,0 +1,9 @@
+{
+    "PATIENT_ID": 7640,
+    "AGE": 33,
+    "SEX": "F",
+    "PATHOLOGY": "pancreatic neoplasm",
+    "Symptomatology": "Do you feel pain somewhere?: epigastric\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: thoracic spine\nCharacterize your pain:: a cramp\nHow fast did the pain appear?: 4\nHow intense is the pain?: 3\nHow precisely is the pain located?: 1",
+    "Lifestyle": "Do you smoke cigarettes?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

@@ -1,0 +1,8 @@
+{
+    "PATIENT_ID": 8773,
+    "AGE": 53,
+    "SEX": "F",
+    "PATHOLOGY": "pulmonary embolism",
+    "Symptomatology": "Do you feel pain somewhere?: posterior chest wall(L)\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: posterior chest wall(R)\nCharacterize your pain:: sharp\nHow fast did the pain appear?: 2\nHow intense is the pain?: 1\nHow precisely is the pain located?: 4",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

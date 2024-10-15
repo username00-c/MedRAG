@@ -1,0 +1,7 @@
+{
+    "PATIENT_ID": 12854,
+    "AGE": 14,
+    "SEX": "M",
+    "Symptomatology": "Do you feel pain somewhere?: posterior chest wall(R)\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: breast(L)\nCharacterize your pain:: a knife stroke\nHow fast did the pain appear?: 9\nHow intense is the pain?: 1\nHow precisely is the pain located?: 2\nDo you have pain that is increased when you breathe in deeply?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: North America"
+}

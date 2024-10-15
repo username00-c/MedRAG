@@ -1,0 +1,9 @@
+{
+    "PATIENT_ID": 7239,
+    "AGE": 14,
+    "SEX": "F",
+    "PATHOLOGY": "psvt",
+    "Symptomatology": "Do you feel pain somewhere?: forehead\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: nowhere\nCharacterize your pain:: burning\nHow fast did the pain appear?: 3\nHow intense is the pain?: 8\nHow precisely is the pain located?: 4",
+    "Lifestyle": "Do you consume energy drinks regularly?: TRUE\nDo you regularly drink coffee or tea?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

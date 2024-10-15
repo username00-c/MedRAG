@@ -1,0 +1,10 @@
+{
+    "PATIENT_ID": 4995,
+    "AGE": 26,
+    "SEX": "F",
+    "PATHOLOGY": "epiglottitis",
+    "Symptomatology": "Do you feel pain somewhere?: pharynx\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: nowhere\nCharacterize your pain:: sharp\nHow fast did the pain appear?: 6\nHow intense is the pain?: 10\nHow precisely is the pain located?: 10",
+    "Lifestyle": "Do you drink alcohol excessively or do you have an addiction to alcohol?: TRUE",
+    "Therapy": "Do you have high blood pressure or do you take medications to treat high blood pressure?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

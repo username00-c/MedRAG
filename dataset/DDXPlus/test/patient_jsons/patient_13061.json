@@ -1,0 +1,8 @@
+{
+    "PATIENT_ID": 13061,
+    "AGE": 31,
+    "SEX": "M",
+    "Symptomatology": "Do you feel pain somewhere?: breast(R)\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: trachea\nCharacterize your pain:: exhausting\nHow fast did the pain appear?: 9\nHow intense is the pain?: 4\nHow precisely is the pain located?: 4",
+    "Therapy": "Do you have high blood pressure or do you take medications to treat high blood pressure?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

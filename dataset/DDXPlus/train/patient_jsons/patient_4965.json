@@ -1,0 +1,9 @@
+{
+    "PATIENT_ID": 4965,
+    "AGE": 41,
+    "SEX": "M",
+    "PATHOLOGY": "epiglottitis",
+    "Symptomatology": "Do you have a fever (either felt or measured with a thermometer)?: TRUE\nDo you feel pain somewhere?: pharynx\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: nowhere\nCharacterize your pain:: sharp\nHow fast did the pain appear?: 7\nHow intense is the pain?: 10\nHow precisely is the pain located?: 5",
+    "Therapy": "Do you have high blood pressure or do you take medications to treat high blood pressure?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

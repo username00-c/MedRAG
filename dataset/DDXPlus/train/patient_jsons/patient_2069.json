@@ -1,0 +1,8 @@
+{
+    "PATIENT_ID": 2069,
+    "AGE": 5,
+    "SEX": "F",
+    "PATHOLOGY": "anemia",
+    "Symptomatology": "Do you feel pain somewhere?: temple(L)\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: nowhere\nCharacterize your pain:: a cramp\nHow fast did the pain appear?: 1\nHow intense is the pain?: 1\nHow precisely is the pain located?: 7",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: West Africa"
+}

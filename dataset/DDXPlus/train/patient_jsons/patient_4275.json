@@ -1,0 +1,9 @@
+{
+    "PATIENT_ID": 4275,
+    "AGE": 24,
+    "SEX": "M",
+    "PATHOLOGY": "cluster headache",
+    "Symptomatology": "Do you feel pain somewhere?: eye(L)\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: nowhere\nCharacterize your pain:: sharp\nHow fast did the pain appear?: 7\nHow intense is the pain?: 7\nHow precisely is the pain located?: 8",
+    "Anamnesis": "Have any of your family members been diagnosed with cluster headaches?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

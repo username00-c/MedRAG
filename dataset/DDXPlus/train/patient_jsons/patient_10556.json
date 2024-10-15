@@ -1,0 +1,8 @@
+{
+    "PATIENT_ID": 10556,
+    "AGE": 76,
+    "SEX": "F",
+    "PATHOLOGY": "stable angina",
+    "Symptomatology": "Do you feel pain somewhere?: breast(L)\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: shoulder(L)\nCharacterize your pain:: exhausting\nHow fast did the pain appear?: 9\nHow intense is the pain?: 3\nHow precisely is the pain located?: 6",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

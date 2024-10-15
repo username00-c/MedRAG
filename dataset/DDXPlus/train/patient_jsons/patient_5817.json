@@ -1,0 +1,9 @@
+{
+    "PATIENT_ID": 5817,
+    "AGE": 65,
+    "SEX": "F",
+    "PATHOLOGY": "influenza",
+    "Symptomatology": "Do you feel pain somewhere?: occiput\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: nowhere\nCharacterize your pain:: exhausting\nHow fast did the pain appear?: 4\nHow intense is the pain?: 7\nHow precisely is the pain located?: 6",
+    "Lifestyle": "Do you smoke cigarettes?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: North America"
+}

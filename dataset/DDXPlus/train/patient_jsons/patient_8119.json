@@ -1,0 +1,8 @@
+{
+    "PATIENT_ID": 8119,
+    "AGE": 35,
+    "SEX": "M",
+    "PATHOLOGY": "pericarditis",
+    "Symptomatology": "Do you feel pain somewhere?: breast(R)\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: posterior chest wall(R)\nCharacterize your pain:: sharp\nHow fast did the pain appear?: 5\nHow intense is the pain?: 5\nHow precisely is the pain located?: 4\nDo you have pain that is increased when you breathe in deeply?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

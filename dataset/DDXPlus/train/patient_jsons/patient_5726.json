@@ -1,0 +1,9 @@
+{
+    "PATIENT_ID": 5726,
+    "AGE": 50,
+    "SEX": "M",
+    "PATHOLOGY": "hiv (initial infection)",
+    "Symptomatology": "Do you feel pain somewhere?: temple(L)\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: nowhere\nCharacterize your pain:: a pulse\nHow fast did the pain appear?: 1\nHow intense is the pain?: 7\nHow precisely is the pain located?: 5\nDo you have diffuse (widespread) muscle pain?: TRUE",
+    "Anamnesis": "Have you had sexual intercourse with an HIV-positive partner in the past 12 months?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

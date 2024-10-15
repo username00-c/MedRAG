@@ -1,0 +1,10 @@
+{
+    "PATIENT_ID": 10357,
+    "AGE": 18,
+    "SEX": "F",
+    "PATHOLOGY": "stable angina",
+    "Symptomatology": "Do you feel pain somewhere?: epigastric\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: shoulder(L)\nCharacterize your pain:: exhausting\nHow fast did the pain appear?: 9\nHow intense is the pain?: 6\nHow precisely is the pain located?: 3",
+    "Lifestyle": "Do you drink alcohol excessively or do you have an addiction to alcohol?: TRUE",
+    "Therapy": "Do you have high blood pressure or do you take medications to treat high blood pressure?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

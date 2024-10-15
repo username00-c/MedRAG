@@ -1,0 +1,9 @@
+{
+    "PATIENT_ID": 11404,
+    "AGE": 42,
+    "SEX": "M",
+    "PATHOLOGY": "viral pharyngitis",
+    "Symptomatology": "Do you have a fever (either felt or measured with a thermometer)?: TRUE\nDo you feel pain somewhere?: pharynx\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: nowhere\nCharacterize your pain:: burning\nHow fast did the pain appear?: 3\nHow intense is the pain?: 4\nHow precisely is the pain located?: 9",
+    "Lifestyle": "Do you live with 4 or more people?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N\nHave you been in contact with a person with similar symptoms in the past 2 weeks?: TRUE"
+}

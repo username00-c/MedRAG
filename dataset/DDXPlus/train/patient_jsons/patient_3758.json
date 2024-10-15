@@ -1,0 +1,8 @@
+{
+    "PATIENT_ID": 3758,
+    "AGE": 23,
+    "SEX": "F",
+    "PATHOLOGY": "chagas",
+    "Symptomatology": "Do you have a fever (either felt or measured with a thermometer)?: TRUE\nDo you feel pain somewhere?: occiput\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: nowhere\nCharacterize your pain:: a cramp\nHow fast did the pain appear?: 5\nHow intense is the pain?: 2\nHow precisely is the pain located?: 9",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

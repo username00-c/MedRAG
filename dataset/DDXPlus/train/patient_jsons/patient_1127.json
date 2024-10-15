@@ -1,0 +1,8 @@
+{
+    "PATIENT_ID": 1127,
+    "AGE": 69,
+    "SEX": "M",
+    "PATHOLOGY": "acute pulmonary edema",
+    "Symptomatology": "Do you feel pain somewhere?: tibia(L)\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: shoulder(R)\nCharacterize your pain:: sensitive\nHow fast did the pain appear?: 6\nHow intense is the pain?: 4\nHow precisely is the pain located?: 8",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

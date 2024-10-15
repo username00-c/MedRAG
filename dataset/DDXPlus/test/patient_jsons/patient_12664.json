@@ -1,0 +1,9 @@
+{
+    "PATIENT_ID": 12664,
+    "AGE": 51,
+    "SEX": "F",
+    "Symptomatology": "Do you feel pain somewhere?: nowhere\nDoes the pain radiate to another location?: nowhere\nCharacterize your pain:: NA\nHow fast did the pain appear?: 0\nHow intense is the pain?: 0\nHow precisely is the pain located?: 0",
+    "Lifestyle": "Do you regularly drink coffee or tea?: TRUE",
+    "Psychopathology": "Do you feel anxious?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

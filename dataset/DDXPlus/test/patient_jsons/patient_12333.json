@@ -1,0 +1,7 @@
+{
+    "PATIENT_ID": 12333,
+    "AGE": 20,
+    "SEX": "M",
+    "Symptomatology": "Do you have a fever (either felt or measured with a thermometer)?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: West Africa\nIn the last month, have you been in contact with anyone infected with the Ebola virus?: TRUE"
+}

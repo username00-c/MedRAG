@@ -1,0 +1,8 @@
+{
+    "PATIENT_ID": 13199,
+    "AGE": 60,
+    "SEX": "F",
+    "Symptomatology": "Do you have a fever (either felt or measured with a thermometer)?: TRUE\nDo you feel pain somewhere?: palace\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: nowhere\nCharacterize your pain:: burning\nHow fast did the pain appear?: 5\nHow intense is the pain?: 8\nHow precisely is the pain located?: 6",
+    "Lifestyle": "Do you smoke cigarettes?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N\nHave you been in contact with a person with similar symptoms in the past 2 weeks?: TRUE"
+}

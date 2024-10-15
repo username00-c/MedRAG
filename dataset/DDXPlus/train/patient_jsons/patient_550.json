@@ -1,0 +1,9 @@
+{
+    "PATIENT_ID": 550,
+    "AGE": 9,
+    "SEX": "M",
+    "PATHOLOGY": "acute laryngitis",
+    "Symptomatology": "Do you feel pain somewhere?: trachea\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: nowhere\nCharacterize your pain:: burning\nHow fast did the pain appear?: 2\nHow intense is the pain?: 6\nHow precisely is the pain located?: 5",
+    "Lifestyle": "Do you live with 4 or more people?: TRUE\nDo you smoke cigarettes?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

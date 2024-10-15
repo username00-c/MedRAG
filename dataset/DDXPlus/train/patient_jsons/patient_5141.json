@@ -1,0 +1,9 @@
+{
+    "PATIENT_ID": 5141,
+    "AGE": 46,
+    "SEX": "F",
+    "PATHOLOGY": "gerd",
+    "Symptomatology": "Do you feel pain somewhere?: epigastric\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: upper chest\nCharacterize your pain:: sickening\nHow fast did the pain appear?: 3\nHow intense is the pain?: 8\nHow precisely is the pain located?: 6",
+    "Lifestyle": "Do you drink alcohol excessively or do you have an addiction to alcohol?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

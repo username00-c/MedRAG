@@ -1,0 +1,9 @@
+{
+    "PATIENT_ID": 7433,
+    "AGE": 53,
+    "SEX": "M",
+    "PATHOLOGY": "psvt",
+    "Symptomatology": "Do you feel pain somewhere?: nowhere\nDoes the pain radiate to another location?: nowhere\nCharacterize your pain:: NA\nHow fast did the pain appear?: 0\nHow intense is the pain?: 0\nHow precisely is the pain located?: 0",
+    "Lifestyle": "Do you consume energy drinks regularly?: TRUE",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

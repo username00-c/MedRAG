@@ -1,0 +1,8 @@
+{
+    "PATIENT_ID": 9430,
+    "AGE": 37,
+    "SEX": "F",
+    "PATHOLOGY": "sarcoidosis",
+    "Symptomatology": "Do you feel pain somewhere?: finger (middle)(R)\nDo you have pain somewhere, related to your reason for consulting?: TRUE\nDoes the pain radiate to another location?: nowhere\nCharacterize your pain:: burning\nHow fast did the pain appear?: 0\nHow intense is the pain?: 4\nHow precisely is the pain located?: 3",
+    "Exposure": "Have you traveled out of the country in the last 4 weeks?: N"
+}

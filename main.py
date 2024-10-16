@@ -92,7 +92,7 @@ for i in tqdm(samplerange):
         except Exception as e:
             print(f"Error processing patient_{participant_no}: {e}. ")
 
-output_file = f"./test_results_topk{topk}_topn{top_n}_matchn{match_n}_{samplerange}_KGRAG.csv"
+output_file = f"./test_results_topk{topk}_topn{top_n}_matchn{match_n}_{samplerange}_MedRAG.csv"
 
 df = pd.DataFrame(results, columns=['Participant No.', 'Generated Diagnosis', 'True Diagnosis', 'Ori Truth','Generated report'])
 df.to_csv(output_file, index=False)

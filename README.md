@@ -6,7 +6,7 @@
 ---
 
 ## Project Overview
-**MedRAG** is a diagnostic tool designed to enhance **Retrieval-Augmented Generation** (RAG) models by integrating **Knowledge Graph (KG)-elicited reasoning**, specifically for the medical domain. This model helps healthcare professionals retrieve diagnosis and treatment recommendations based on patient manifestations, improving diagnostic accuracy and reducing the risk of misdiagnosis, particularly for diseases with similar symptoms.
+**MedRAG** is a diagnostic tool designed to enhance **Retrieval-Augmented Generation** (RAG) models by integrating **Knowledge Graph (KG)-elicited reasoning**, specifically for the medical domain. This model helps healthcare professionals retrieve diagnosis and treatment recommendations based on patient manifestations, improving diagnostic accuracy and reducing the risk of misdiagnosis, particularly for diseases with similar manifestations.
 
 ---
 
@@ -47,22 +47,47 @@ The full MedRAG test set, including raw image data and annotations, can be downl
 
 To use this project, follow these steps:
 
-1. **Modify Data Path**  
-   To use your own dataset, modify the data path and annotation path in the source code. Refer to the template code and update the paths as needed.
+1. **Clone this repository**  
+   First, clone this repository to your local machine:
 
+   ```bash
+   git clone https://github.com/yourusername/yourrepository.git
+2. **Modify Tokens**  
+   To use your own OpenAI and Hugging Face API tokens, replace the placeholders in the source code with your actual tokens. The relevant sections in the code have been left blank for this purpose.
+   
    ```python
-   # Example: Modify the data path
-   data_path = "/your/dataset/path"```
-2. **Modify Tokens**
-  To use your own OpenAI and Hugging Face API tokens, replace the placeholders in the source code with your actual tokens. The relevant sections in the code have been left blank for this purpose.
+   # Replace with your OpenAI API token
+   api_key = "your_openai_api_token"   
   
-  For example:
-  ```python
-  # Replace with your OpenAI API token
-  openai.api_key = "your_openai_api_token"
-  
-  # Replace with your Hugging Face API token
-  hf_token = "your_huggingface_api_token"```
+   # Replace with your Hugging Face API token
+   hf_token = "your_huggingface_api_token"
+4. **Run the `main.py` script**  
+   Once the paths and tokens have been updated, run the `main.py` file to start the program:
+   
+   ```python
+   python main.py
 
-3. **Run the main.py script**
-  ```python main.py```
+## Experimental Results
+### Figure 1: Comparison of Diagnostic Accuracy
+
+![Diagnostic Accuracy](./images/image1.png)
+*Figure 1: A comparison of diagnostic accuracy between MedRAG and other RAG models.*
+
+### Figure 2: Precision and Recall Performance
+
+![Precision and Recall](./images/image2.png)
+*Figure 2: Precision and recall comparison for MedRAG and baseline models.*
+
+### Figure 3: Misdiagnosis Rate Reduction
+
+![Misdiagnosis Rate](./images/image3.png)
+*Figure 3: Reduction in misdiagnosis rates using MedRAG across different datasets.*
+
+### Additional Visualizations
+
+Additional visualizations can be added to highlight specific performance metrics or case studies. Refer to the figures below for further insights into the evaluation results.
+
+---
+
+By analyzing the above results, we can observe that MedRAG significantly improves diagnostic accuracy, precision, and recall, while effectively reducing misdiagnosis rates compared to other methods.
+

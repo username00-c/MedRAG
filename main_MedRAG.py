@@ -13,11 +13,10 @@ from huggingface_hub import InferenceClient
 from sklearn.neighbors import NearestNeighbors
 from sklearn.metrics.pairwise import cosine_similarity
 from COT import craniofacial_pain_syndromes, cervical_spine_pain_syndromes, thoracoabdominal_pain_syndromes, limb_and_joint_pain_syndromes, back_pain_syndromes, lumbar_degenerative_and_stenosis_syndromes, radicular_and_sciatic_pain_syndromes, generalized_pain_syndromes, neuropathic_pain_syndromes
-from KG_Retrieve_final_symptom import main_get_category_and_level3
+from KG_Retrieve import main_get_category_and_level3
 from gradio_client import Client
+from authentication import api_key,hf_token
 
-# OpenAI API
-api_key = ''
 client = openai.OpenAI(api_key=api_key)
 
 def get_embeddings(texts):
@@ -183,7 +182,7 @@ def get_system_prompt_for_RAGKG():
         You are a knowledgeable medical assistant with expertise in pain management.
         Your tasks are:
         1. Analyse and refer to the retrieved similar patients' cases and knowledge graph which may be relevant to the diagnosis and assist with new patient cases.
-        2. Output of "Diagnoses" must come from : Head pain, Migraine, Trigeminal neuralgia, Cervical spondylosis, Chronic neck pain, Neck pain, Chest pain, Abdominal pain, Limb pain, Shoulder pain, Hip pain, Knee pain, Buttock pain, Calf pain, Low back pain, Chronic low back pain, Mechanical low back pain, Upper back pain, Degenerative disc disease, Lumbar spondylosis, Lumbar canal stenosis, Spinal stenosis, Foraminal stenosis, Lumbar_radicular_pain, Radicular pain, Sciatica, Lumbosacral pain, Generalized body pain, Fibromyalgia, Musculoskeletal pain, Myofascial pain syndrome, Neuropathic pain, Post-herpetic neuralgia.
+        2. Output of "Diagnoses" must come from : Head pain, Migraine, Trigeminal neuralgia, Cervical spondylosis, Chronic neck pain, Neck pain, Chest pain, Abdominal pain, Limb pain, Shoulder pain, Hip pain, Knee pain, Buttock pain, Low back pain, Chronic low back pain, Mechanical low back pain, Upper back pain, Degenerative disc disease, Lumbar spondylosis, Lumbar canal stenosis, Spinal stenosis, Foraminal stenosis, Lumbar_radicular_pain, Radicular pain, Sciatica, Lumbosacral pain, Generalized body pain, Fibromyalgia, Musculoskeletal pain, Myofascial pain syndrome, Neuropathic pain, Post-herpetic neuralgia.
         3. You are given differences of diagnoses of similar symptoms or pain locations. Read that information as a reference to your diagnostic if applicable.
         4. Do mind the nuance between these factors of similar diagnosis with knowledge graph information and consider it when diagnose new patient's informtation.
         5. Ensure that the recommendations are evidence-based and consider the most recent and effective practices in pain management.
@@ -257,7 +256,7 @@ def generate_diagnosis_report(path, query, retrieved_documents, i,top_n,match_n,
             # "Qwen/Qwen2.5-0.5B-Instruct",
             # "mistralai/Mistral-7B-Instruct-v0.2",
             # 'mistralai/Mixtral-8x7B-Instruct-v0.1',
-            token=''
+            token=hf_token
         )
         response = LLMclient.text_generation(prompt=prompt,max_new_tokens=400)
         return response

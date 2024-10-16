@@ -3,12 +3,8 @@ import re
 import json
 import pandas as pd
 from tqdm import tqdm
-from main_RAGKG import get_query_embedding, Faiss, KNN, extract_diagnosis, documents, document_embeddings,generate_diagnosis_report, save_results_to_csv, get_additional_info_from_level_2,KG_preprocess, get_embeddings
-
-ob_path='./dataset/df/train'
-test_folder_path="./dataset/df/test"
-ground_truth_file_path='./dataset/AI Data Set with Categories.csv'
-augmented_features_path='./datast/knowledge graph of chronic pain.xlsx'
+from main_MedRAG import get_query_embedding, Faiss, KNN, extract_diagnosis, documents, document_embeddings,generate_diagnosis_report, save_results_to_csv, get_additional_info_from_level_2,KG_preprocess, get_embeddings
+from authentication import ob_path,test_folder_path,ground_truth_file_path,augmented_features_path
 
 disease_list = [
     "Head pain", "Migraine", "Trigeminal neuralgia", "Cervical spondylosis", "Chronic neck pain", "Neck pain",

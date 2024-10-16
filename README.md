@@ -5,14 +5,8 @@
 
 ---
 
-## Project Overview
+## Overview
 **MedRAG** is to designed to enhance **Retrieval-Augmented Generation** (RAG) models by integrating **Knowledge Graph (KG)-elicited reasoning**, specifically for the medical domain. This model helps healthcare professionals generate diagnosis and treatment recommendations based on patient manifestations, improving diagnostic accuracy and reducing the risk of misdiagnosis, particularly for diseases with similar manifestations.
-
----
-
-## About the Project
-
-MedRAG aims to enhance the reasoning capabilities of large language models (LLMs) in the medical domain, especially for complex diagnostic analysis. The model incorporates a disease knowledge graph that encodes relationships between symptoms, diagnoses, and diseases to improve its performance in handling diverse and complex medical cases.
 
 Key features of MedRAG include:
 
@@ -42,7 +36,7 @@ The full MedRAG test set, including raw image data and annotations, can be downl
 
 ## Usage
 
-To use this project, follow these steps:
+To use MedRAG, follow these steps:
 
 1. **Get ready for repository and dependencies**  
    Clone this repository to your local machine and install requirements in requirements.txt

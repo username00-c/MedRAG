@@ -68,26 +68,27 @@ To use this project, follow these steps:
    python main.py
 
 ## Experimental Results
-### Figure 1: Comparison of Diagnostic Accuracy
+### Comparison of Diagnostic Accuracy
 
-![Diagnostic Accuracy](./images/image1.png)
-*Figure 1: A comparison of diagnostic accuracy between MedRAG and other RAG models.*
+![Diagnostic Accuracy](./images/comparison.png)
+*Figure 1: Results of quantitative performance comparison.*
 
-### Figure 2: Precision and Recall Performance
+### KG-elicited reasoning Performance
 
-![Precision and Recall](./images/image2.png)
-*Figure 2: Precision and recall comparison for MedRAG and baseline models.*
+![Precision and Recall](./images/backbones.png)
+*Figure 2: Performance of MedRAG on different LLM backbones with and without KG-elicited reasoning.*
 
-### Figure 3: Misdiagnosis Rate Reduction
-
-![Misdiagnosis Rate](./images/image3.png)
-*Figure 3: Reduction in misdiagnosis rates using MedRAG across different datasets.*
 
 ### Additional Visualizations
+1. Diseases knowledge graph
+![Precision and Recall](./images/CPDDKG.pdf)
+*Figure 2: The result of hierarchical aggregation in CPDD.*
+![Precision and Recall](./images/DDXPlus.pdf)
+*Figure 2: The result of hierarchical aggregation in CPDD.*
 
-Additional visualizations can be added to highlight specific performance metrics or case studies. Refer to the figures below for further insights into the evaluation results.
-
+2. Clustering result demonstration
+![Precision and Recall](./images/clustering.png)
+*Figure 2: The result of disease clustering in CPDD.*
 ---
 
-By analyzing the above results, we can observe that MedRAG significantly improves diagnostic accuracy, precision, and recall, while effectively reducing misdiagnosis rates compared to other methods.
 

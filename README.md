@@ -17,26 +17,23 @@ MedRAG aims to enhance the reasoning capabilities of large language models (LLMs
 Key features of MedRAG include:
 
 - **Knowledge Graph-Enhanced Reasoning**: Integrates a diagnostic knowledge graph to improve the reasoning ability of the RAG model.
-- **Accurate  Diagnostic Support**: Provides specific diagnostic insights and personalized treatment recommendations, even for complex or similar diseases.
+- **Accurate Diagnostic Support**: Provides specific diagnostic insights and personalized treatment recommendations, even for complex or similar diseases.
 - **Follow-Up Question Generation**: Proactively generates relevant follow-up questions to clarify ambiguous patient information and enhance decision-making.
 - **Evaluated on Real-World and Public Datasets**: Demonstrated superior performance on the public DDXPlus dataset and a private chronic pain diagnostic dataset (CPDD) compared to existing RAG models.
 
-
 ---
 
-## Core Design of MedRAG: Knowledge Graph-Enhanced Reasonin
+## Core Design of MedRAG: Knowledge Graph-Enhanced Reasoning
 
 The MedRAG approach addresses the following key challenges:
 
-1. **Knowledge Graph Construction**: Using hierarchical aggregation to build diseases knowledge graph, capturing complex relationships between diseases, categories, and their manifestations.
+1. **Knowledge Graph Construction**: Using hierarchical aggregation to build disease knowledge graph, capturing complex relationships between diseases, categories, and their manifestations.
 2. **RAG-Based Reasoning**: Combines EHR retrieval with diagnostic knowledge graph reasoning to enhance diagnostic accuracy.
 3. **Personalized Diagnostic Suggestions**: Integrates multi-level information to provide personalized treatment and follow-up recommendations.
 
 ---
 
 ## Dataset Download
-
-### Full Test Set
 
 The full MedRAG test set, including raw image data and annotations, can be downloaded from the links below. Due to the large size of the dataset, a lighter version is also available for quicker testing.
 
@@ -47,11 +44,14 @@ The full MedRAG test set, including raw image data and annotations, can be downl
 
 To use this project, follow these steps:
 
-1. **Clone this repository**  
-   First, clone this repository to your local machine:
+1. **Get ready for repository and dependencies**  
+   Clone this repository to your local machine and install requirements in requirements.txt
 
    ```bash
    git clone https://github.com/yourusername/yourrepository.git
+   
+   cd yourrepository
+   pip install -r requirements.txt
 2. **Modify Tokens**  
    To use your own OpenAI and Hugging Face API tokens, replace the placeholders in the source code with your actual tokens. The relevant sections in the code have been left blank for this purpose.
    
@@ -79,23 +79,24 @@ Our proposed MedRAG achieved the best or second-best~(with only one exception) p
 <div align="center"> <img src="./images/backbones.png" alt="KG-elicited reasoning" width="800"> </div >
     <p><em>Figure 2: Performance of MedRAG on different LLM backbones with and without KG-elicited reasoning.</em></p >
 
-We evaluate KG-elicited reasoning on different LLM backbones including both open-source and closed-source models. The results demonstrate that the inclusion of KG-elicited reasoning significantly enhances diagnostic accuracy across $L1$, $L2$, and $L3$ for all backbone LLMs, compared to models without its use.
+We evaluate KG-elicited reasoning on different LLM backbones, including both open-source and closed-source models. The results demonstrate that the inclusion of KG-elicited reasoning significantly enhances diagnostic accuracy across $L1$, $L2$, and $L3$ for all backbone LLMs, compared to models without its use.
 
 ### Additional Visualizations
-1. Diseases knowledge graph
-<div align="center"> <img src="./images/DDXPlusKG.png" alt="DDXPlus-KG" width="600"> </div >
-    <p><em>Figure 1: The result of hierarchical aggregation in DDXPlus.</em></p >
+1.Clustering result demonstration
+
+<div align="center"> <img src="./images/clustering.png" alt="clustering" width="500"> </div >
+    <p><em>The result of disease clustering in CPDD.</em></p >
     
-<div align="center"> <img src="./images/CCPDKG.png" alt="CPDD-KG" width="600"> </div >
-    <p><em>Figure 1: The result of hierarchical aggregation in CPDD.</em></p >
+2. Diseases knowledge graph
+<div align="center"> <img src="./images/DDXPlusKG.png" alt="DDXPlus-KG" width="600"> </div >
+    <p><em>The result of hierarchical aggregation in DDXPlus.</em></p >
+    
+<div align="center"> <img src="./images/CPDDKG.png" alt="CPDD-KG" width="600"> </div >
+    <p><em>The result of hierarchical aggregation in CPDD.</em></p >
 
-
-2. Clustering result demonstration
-<div style="text-align: center;">
-    <img src="./images/clustering.png" alt="clustering" width="600">
-    <p><em>Figure 2: The result of disease clustering in CPDD.</em></p>
-</div>
-*Figure 2: The result of disease clustering in CPDD.*
----
+3. Diagnostic differences augmentation
+<div align="center"> <img src="./images/diagnosticdiff.png" alt="CPDD-KG" width="800"> </div >
+    <p><em>Diagnosic difference example.</em></p >
+While lumbar canal stenosis and sciatica share some similar features, the critical distinguishing factor lies in the response to sitting. In lumbar canal stenosis, features are typically alleviated when sitting, whereas in sciatica, sitting tends to exacerbate the discomfort. 
 
 

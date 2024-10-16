@@ -52,7 +52,7 @@ To use this project, follow these steps:
 
    ```python
    # Example: Modify the data path
-   data_path = "/your/dataset/path"
+   data_path = "/your/dataset/path"```
 2. **Modify Tokens**
   To use your own OpenAI and Hugging Face API tokens, replace the placeholders in the source code with your actual tokens. The relevant sections in the code have been left blank for this purpose.
   
@@ -62,8 +62,7 @@ To use this project, follow these steps:
   openai.api_key = "your_openai_api_token"
   
   # Replace with your Hugging Face API token
-  hf_token = "your_huggingface_api_token"
-3. **Run the main.py script**
-  ```python main.py
+  hf_token = "your_huggingface_api_token"```
 
-##
+3. **Run the main.py script**
+  ```python main.py```

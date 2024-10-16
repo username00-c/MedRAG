@@ -53,7 +53,7 @@ To use this project, follow these steps:
    cd yourrepository
    pip install -r requirements.txt
 2. **Modify Tokens**  
-   To use your own OpenAI and Hugging Face API tokens, replace the placeholders in the source code with your actual tokens. The relevant sections in the code have been left blank for this purpose.
+   To use your own OpenAI and Hugging Face API tokens, replace the placeholders in the authentication.py with your actual tokens. The relevant sections in the code have been left blank for this purpose.
    
    ```python
    # Replace with your OpenAI API token

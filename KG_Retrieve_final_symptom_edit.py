@@ -15,12 +15,10 @@ import string
 import os
 from collections import defaultdict
 
-# 确保安装nltk数据
 nltk.download('punkt')
 nltk.download('stopwords')
 
-# api_key = 'sk-proj-X78w2EgvtRWoEXOjrg85T3BlbkFJcTQM8hmg6to8WmUYwnd1'
-api_key='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'
+# api_key = ''
 client = openai.OpenAI(api_key=api_key)
 
 KG_file_path = './dataset/knowledge graph of chronic pain_aug_f_combine_extend.xlsx'

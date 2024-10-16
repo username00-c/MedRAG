@@ -1,4 +1,4 @@
-# Project Title: MedRAG: Enhancing Retrieval-augmented Generation with Knowledge Graph-Elicited Reasoning for Healthcare Copilot
+# MedRAG: Enhancing Retrieval-augmented Generation with Knowledge Graph-Elicited Reasoning for Healthcare Copilot
 
 **Project Authors**  
 *Anonymous*
@@ -6,7 +6,7 @@
 ---
 
 ## Project Overview
-**MedRAG** is a diagnostic tool designed to enhance **Retrieval-Augmented Generation** (RAG) models by integrating **Knowledge Graph (KG)-elicited reasoning**, specifically for the medical domain. This model helps healthcare professionals retrieve diagnosis and treatment recommendations based on patient manifestations, improving diagnostic accuracy and reducing the risk of misdiagnosis, particularly for diseases with similar manifestations.
+**MedRAG** is to designed to enhance **Retrieval-Augmented Generation** (RAG) models by integrating **Knowledge Graph (KG)-elicited reasoning**, specifically for the medical domain. This model helps healthcare professionals generate diagnosis and treatment recommendations based on patient manifestations, improving diagnostic accuracy and reducing the risk of misdiagnosis, particularly for diseases with similar manifestations.
 
 ---
 
@@ -23,13 +23,13 @@ Key features of MedRAG include:
 
 ---
 
-## Core Design of MedRAG: Knowledge Graph-Enhanced Reasoning
+## Core Design of MedRAG: Knowledge Graph-Elicited Reasoning
 
 The MedRAG approach addresses the following key challenges:
 
 1. **Knowledge Graph Construction**: Using hierarchical aggregation to build disease knowledge graph, capturing complex relationships between diseases, categories, and their manifestations.
 2. **RAG-Based Reasoning**: Combines EHR retrieval with diagnostic knowledge graph reasoning to enhance diagnostic accuracy.
-3. **Personalized Diagnostic Suggestions**: Integrates multi-level information to provide personalized treatment and follow-up recommendations.
+3. **Personalized Diagnostic Suggestions**: Integrates multi-level information to provide personalized treatment and follow-up questions for doctors.
 
 ---
 
@@ -37,8 +37,8 @@ The MedRAG approach addresses the following key challenges:
 
 The full MedRAG test set, including raw image data and annotations, can be downloaded from the links below. Due to the large size of the dataset, a lighter version is also available for quicker testing.
 
-- [Download Full DDXPlus](https://figshare.com/articles/dataset/DDXPlus_Dataset_English_/22687585) **: a large-scale, synthesized EHR dataset widely recognized for offering complex, diverse medical diagnosis cases. It includes comprehensive patient data such as socio-demographic information, underlying diseases, symptoms, and antecedents.
-- [Download Full CCPD](#https://github.com/username00-c/MedRAG/)
+- [Download Full DDXPlus](https://figshare.com/articles/dataset/DDXPlus_Dataset_English_/22687585) : a large-scale, synthesized EHR dataset widely recognized for offering complex, diverse medical diagnosis cases. It includes comprehensive patient data such as socio-demographic information, underlying diseases, symptoms, and antecedents.
+- [Download Full CPDD]([https://github.com/](https://github.com/username00-c/MedRAG/)) : a private EHR dataset in chrono pain.
 
 ## Usage
 
@@ -82,19 +82,19 @@ Our proposed MedRAG achieved the best or second-best~(with only one exception) p
 We evaluate KG-elicited reasoning on different LLM backbones, including both open-source and closed-source models. The results demonstrate that the inclusion of KG-elicited reasoning significantly enhances diagnostic accuracy across $L1$, $L2$, and $L3$ for all backbone LLMs, compared to models without its use.
 
 ### Additional Visualizations
-1.Clustering result demonstration
+**Clustering result**
 
 <div align="center"> <img src="./images/clustering.png" alt="clustering" width="500"> </div >
     <p><em>The result of disease clustering in CPDD.</em></p >
     
-2. Diseases knowledge graph
+**Diseases knowledge graph**
 <div align="center"> <img src="./images/DDXPlusKG.png" alt="DDXPlus-KG" width="600"> </div >
     <p><em>The result of hierarchical aggregation in DDXPlus.</em></p >
     
 <div align="center"> <img src="./images/CPDDKG.png" alt="CPDD-KG" width="600"> </div >
     <p><em>The result of hierarchical aggregation in CPDD.</em></p >
 
-3. Diagnostic differences augmentation
+**Diagnostic differences augmentation**
 <div align="center"> <img src="./images/diagnosticdiff.png" alt="CPDD-KG" width="800"> </div >
     <p><em>Diagnosic difference example.</em></p >
 While lumbar canal stenosis and sciatica share some similar features, the critical distinguishing factor lies in the response to sitting. In lumbar canal stenosis, features are typically alleviated when sitting, whereas in sciatica, sitting tends to exacerbate the discomfort. 

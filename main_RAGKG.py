@@ -13,7 +13,7 @@ from huggingface_hub import InferenceClient
 from sklearn.neighbors import NearestNeighbors
 from sklearn.metrics.pairwise import cosine_similarity
 from COT import craniofacial_pain_syndromes, cervical_spine_pain_syndromes, thoracoabdominal_pain_syndromes, limb_and_joint_pain_syndromes, back_pain_syndromes, lumbar_degenerative_and_stenosis_syndromes, radicular_and_sciatic_pain_syndromes, generalized_pain_syndromes, neuropathic_pain_syndromes
-from KG_Retrieve_final_symptom_edit import main_get_category_and_level3
+from KG_Retrieve_final_symptom import main_get_category_and_level3
 from gradio_client import Client
 
 # OpenAI API

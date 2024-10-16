@@ -7,8 +7,8 @@ from main_RAGKG import get_query_embedding, Faiss, KNN, extract_diagnosis, docum
 
 ob_path='./dataset/df/train'
 test_folder_path="./dataset/df/test"
-ground_truth_file_path='./dataset/AI Data Set with Categories_vfL2L3_combine.csv'
-augmented_features_path='/Users/liusiyan/PycharmProjects/Medical_Dia/Hospital/knowledge graph of chronic pain_aug_f_combine.xlsx'
+ground_truth_file_path='./dataset/AI Data Set with Categories.csv'
+augmented_features_path='./datast/knowledge graph of chronic pain.xlsx'
 
 disease_list = [
     "Head pain", "Migraine", "Trigeminal neuralgia", "Cervical spondylosis", "Chronic neck pain", "Neck pain",

@@ -68,26 +68,33 @@ To use this project, follow these steps:
    python main.py
 
 ## Experimental Results
-### Comparison of Diagnostic Accuracy
+### Main results
 
-![Diagnostic Accuracy](./images/comparison.png)
-*Figure 1: Results of quantitative performance comparison.*
 
-### KG-elicited reasoning Performance
+<div align="center"> <img src="./images/comparison.png" alt="diseases knowledge graph" width="600"> </div >
+    <p><em>Figure 1: Results of quantitative performance comparison.</em></p >
 
-![Precision and Recall](./images/backbones.png)
-*Figure 2: Performance of MedRAG on different LLM backbones with and without KG-elicited reasoning.*
+Our proposed MedRAG achieved the best or second-best~(with only one exception) performance across multiple metrics in all datasets. Accuracy on the $L3$ metric is the best indicator of MedRAG's performance, as higher specificity increases diagnostic difficulty. MedRAG outperformed the second-best scores on the CPDD and DDXPlus datasets.
 
+<div align="center"> <img src="./images/backbones.png" alt="KG-elicited reasoning" width="800"> </div >
+    <p><em>Figure 2: Performance of MedRAG on different LLM backbones with and without KG-elicited reasoning.</em></p >
+
+We evaluate KG-elicited reasoning on different LLM backbones including both open-source and closed-source models. The results demonstrate that the inclusion of KG-elicited reasoning significantly enhances diagnostic accuracy across $L1$, $L2$, and $L3$ for all backbone LLMs, compared to models without its use.
 
 ### Additional Visualizations
 1. Diseases knowledge graph
-![Precision and Recall](./images/CPDDKG.pdf)
-*Figure 2: The result of hierarchical aggregation in CPDD.*
-![Precision and Recall](./images/DDXPlus.pdf)
-*Figure 2: The result of hierarchical aggregation in CPDD.*
+<div align="center"> <img src="./images/DDXPlusKG.png" alt="DDXPlus-KG" width="600"> </div >
+    <p><em>Figure 1: The result of hierarchical aggregation in DDXPlus.</em></p >
+    
+<div align="center"> <img src="./images/CCPDKG.png" alt="CPDD-KG" width="600"> </div >
+    <p><em>Figure 1: The result of hierarchical aggregation in CPDD.</em></p >
+
 
 2. Clustering result demonstration
-![Precision and Recall](./images/clustering.png)
+<div style="text-align: center;">
+    <img src="./images/clustering.png" alt="clustering" width="600">
+    <p><em>Figure 2: The result of disease clustering in CPDD.</em></p>
+</div>
 *Figure 2: The result of disease clustering in CPDD.*
 ---
 

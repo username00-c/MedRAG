@@ -61,7 +61,7 @@ symptom_nodes = kg_data['object_preprocessed'].dropna().unique().tolist()
 
 
 def get_symptom_embeddings(symptom_nodes, save_path):
-    embeddings_path = os.path.join(save_path, 'KG_split_embeddings.npy')
+    embeddings_path = os.path.join(save_path, 'KG_embeddings.npy')
     if os.path.exists(embeddings_path):
         print("load existing embeddings...")
         return np.load(embeddings_path)

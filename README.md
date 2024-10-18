@@ -27,12 +27,12 @@ The MedRAG approach addresses the following key challenges:
 
 ---
 
-## Dataset Download
+## Dataset
 
 The full MedRAG test set, including raw image data and annotations, can be downloaded from the links below. Due to the large size of the dataset, a lighter version is also available for quicker testing.
 
 - [Download Full DDXPlus](https://figshare.com/articles/dataset/DDXPlus_Dataset_English_/22687585) : a large-scale, synthesized EHR dataset widely recognized for offering complex, diverse medical diagnosis cases. It includes comprehensive patient data such as socio-demographic information, underlying diseases, symptoms, and antecedents.
-- [Download Full CPDD]([https://github.com/](https://github.com/username00-c/MedRAG/)) : a private EHR dataset in chrono pain.
+- CPDD: a private EHR dataset in chronic pain from a cooperative hospital.
 
 ## Usage
 
@@ -47,7 +47,7 @@ To use MedRAG, follow these steps:
    cd yourrepository
    pip install -r requirements.txt
 2. **Modify Tokens**  
-   To use your own OpenAI and Hugging Face API tokens, replace the placeholders in the authentication.py with your actual tokens. The relevant sections in the code have been left blank for this purpose.
+   To use your own OpenAI and Hugging Face API tokens, replace the placeholders in the `authentication.py` with your actual tokens. The relevant sections in the code have been left blank for this purpose.
    
    ```python
    # Replace with your OpenAI API token

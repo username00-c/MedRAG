@@ -84,45 +84,76 @@ def extract_features_from_json(file_path):
     return pain_location, pain_symptoms
 
 level_3_to_level_2 = {
-    "head_pain": "craniofacial_pain_syndromes",
-    "migraine": "craniofacial_pain_syndromes",
-    "trigeminal_neuralgia": "craniofacial_pain_syndromes",
+    # Respiratory System
+    "acute_copd_exacerbation_infection": "respiratory_system",
+    "bronchiectasis": "respiratory_system",
+    "bronchiolitis": "respiratory_system",
+    "bronchitis": "respiratory_system",
+    "bronchospasm_acute_asthma_exacerbation": "respiratory_system",
+    "pulmonary_embolism": "respiratory_system",
+    "pulmonary_neoplasm": "respiratory_system",
+    "spontaneous_pneumothorax": "respiratory_system",
+    "urti": "respiratory_system",
+    "viral_pharyngitis": "respiratory_system",
+    "whooping_cough": "respiratory_system",
+    "acute_laryngitis": "respiratory_system",
+    "acute_pulmonary_edema": "respiratory_system",
+    "croup": "respiratory_system",
+    "larygospasm": "respiratory_system",
+    "epiglottitis": "respiratory_system",
+    "pneumonia": "respiratory_system",
 
-    "cervical_spondylosis": "cervical_spine_pain_syndromes",
-    "chronic_neck_pain": "cervical_spine_pain_syndromes",
-    "shoulder_pain": "cervical_spine_pain_syndromes",
-    "neck_pain": "cervical_spine_pain_syndromes",
+    # Cardiovascular System
+    "atrial_fibrillation": "cardiovascular_system",
+    "myocarditis": "cardiovascular_system",
+    "pericarditis": "cardiovascular_system",
+    "psvt": "cardiovascular_system",
+    "possible_nstemi_stemi": "cardiovascular_system",
+    "stable_angina": "cardiovascular_system",
+    "unstable_angina": "cardiovascular_system",
+    "pulmonary_embolism": "cardiovascular_system",
 
-    "chest_pain": "thoracoabdominal_pain_syndromes",
-    "abdominal_pain": "thoracoabdominal_pain_syndromes",
+    # Gastrointestinal System
+    "gerd": "gastrointestinal_system",
+    "boerhaave_syndrome": "gastrointestinal_system",
+    "pancreatic_neoplasm": "gastrointestinal_system",
+    "scombroid_food_poisoning": "gastrointestinal_system",
+    "inguinal_hernia": "gastrointestinal_system",
 
-    "limb_pain": "limb_and_joint_pain_syndromes",
-    "knee_pain": "limb_and_joint_pain_syndromes",
+    # Infectious Diseases
+    "tuberculosis": "infectious_diseases",
+    "hiv_initial_infection": "infectious_diseases",
+    "ebola": "infectious_diseases",
+    "influenza": "infectious_diseases",
+    "chagas": "infectious_diseases",
+    "acute_otitis_media": "infectious_diseases",
+    "acute_rhinosinusitis": "infectious_diseases",
+    "allergic_sinusitis": "infectious_diseases",
+    "chronic_rhinosinusitis": "infectious_diseases",
+    "pneumonia": "infectious_diseases",
 
-    "hip_pain": "back_pain_syndromes",
-    "buttock_pain": "back_pain_syndromes",
-    "low_back_pain": "back_pain_syndromes",
-    "chronic_low_back_pain": "back_pain_syndromes",
-    "mechanical_low_back_pain": "back_pain_syndromes",
-    "upper_back_pain": "back_pain_syndromes",
+    # Neurological and Muscular System
+    "myasthenia_gravis": "neurological_and_muscular_system",
+    "guillain_barre_syndrome": "neurological_and_muscular_system",
+    "cluster_headache": "neurological_and_muscular_system",
+    "acute_dystonic_reactions": "neurological_and_muscular_system",
 
-    "degenerative_disc_disease": "lumbar_degenerative_and_stenosis_and_radicular_and_sciatic_syndromes",
-    "lumbar_spondylosis": "lumbar_degenerative_and_stenosis_and_radicular_and_sciatic_syndromes",
-    "lumbar_canal_stenosis": "lumbar_degenerative_and_stenosis_and_radicular_and_sciatic_syndromes",
-    "spinal_stenosis": "lumbar_degenerative_and_stenosis_and_radicular_and_sciatic_syndromes",
-    "foraminal_stenosis": "lumbar_degenerative_and_stenosis_and_radicular_and_sciatic_syndromes",
-    "lumbar_radicular_pain": "lumbar_degenerative_and_stenosis_and_radicular_and_sciatic_syndromes",
-    "radicular_pain": "lumbar_degenerative_and_stenosis_and_radicular_and_sciatic_syndromes",
-    "sciatica": "lumbar_degenerative_and_stenosis_and_radicular_and_sciatic_syndromes",
-    "lumbosacral_pain": "lumbar_degenerative_and_stenosis_and_radicular_and_sciatic_syndromes",
+    # Autoimmune and Immunological Diseases
+    "sle": "autoimmune_and_immunological_diseases",
+    "sarcoidosis": "autoimmune_and_immunological_diseases",
+    "anaphylaxis": "autoimmune_and_immunological_diseases",
+    "allergic_sinusitis": "autoimmune_and_immunological_diseases",
 
-    "generalized_body_pain": "generalized_pain_syndromes",
-    "fibromyalgia": "generalized_pain_syndromes",
-    "musculoskeletal_pain": "generalized_pain_syndromes",
-    "myofascial_pain_syndrome": "generalized_pain_syndromes",
+    # Psychiatric and Stress-Related Disorders
+    "panic_attack": "psychiatric_and_stress_related_disorders",
 
-    "neuropathic_pain": "neuropathic_pain_syndromes",
-    "post_herpetic_neuralgia": "neuropathic_pain_syndromes"
+    # Trauma and Injury-Related Conditions
+    "spontaneous_rib_fracture": "trauma_and_injury_related_conditions",
+    "spontaneous_pneumothorax": "trauma_and_injury_related_conditions",
+    "inguinal_hernia": "trauma_and_injury_related_conditions",
+
+    # Hematological Disorders
+    "anemia": "hematological_disorders"
 }
 
 
@@ -182,8 +213,7 @@ def get_system_prompt_for_RAGKG():
         You are a knowledgeable medical assistant with expertise in pain management.
         Your tasks are:
         1. Analyse and refer to the retrieved similar patients' cases and knowledge graph which may be relevant to the diagnosis and assist with new patient cases.
-        2. Output of "Diagnoses" must come from : Head pain, Migraine, Trigeminal neuralgia, Cervical spondylosis, Chronic neck pain, Neck pain, Chest pain, Abdominal pain, Limb pain, Shoulder pain, Hip pain, Knee pain, Buttock pain, Low back pain, Chronic low back pain, Mechanical low back pain, Upper back pain, Degenerative disc disease, Lumbar spondylosis, Lumbar canal stenosis, Spinal stenosis, Foraminal stenosis, Lumbar_radicular_pain, Radicular pain, Sciatica, Lumbosacral pain, Generalized body pain, Fibromyalgia, Musculoskeletal pain, Myofascial pain syndrome, Neuropathic pain, Post-herpetic neuralgia.
-        3. You are given differences of diagnoses of similar symptoms or pain locations. Read that information as a reference to your diagnostic if applicable.
+2. Output of "Diagnoses" must come from : acute copd exacerbation infection, bronchiectasis, bronchiolitis, bronchitis, bronchospasm acute asthma exacerbation, pulmonary embolism, pulmonary neoplasm, spontaneous pneumothorax, urti, viral pharyngitis, whooping cough, acute laryngitis, acute pulmonary edema, croup, larygospasm, epiglottitis, pneumonia, atrial fibrillation, myocarditis, pericarditis, psvt, possible nstemi stemi, stable angina, unstable angina, gerd, boerhaave syndrome, pancreatic neoplasm, scombroid food poisoning, inguinal hernia, tuberculosis, hiv initial infection, ebola, influenza, chagas, acute otitis media, acute rhinosinusitis, allergic sinusitis, chronic rhinosinusitis, myasthenia gravis, guillain barre syndrome, cluster headache, acute dystonic reactions, sle, sarcoidosis, anaphylaxis, panic attack, spontaneous rib fracture, anemia.        3. You are given differences of diagnoses of similar symptoms or pain locations. Read that information as a reference to your diagnostic if applicable.
         4. Do mind the nuance between these factors of similar diagnosis with knowledge graph information and consider it when diagnose new patient's informtation.
         5. Ensure that the recommendations are evidence-based and consider the most recent and effective practices in pain management.
         6. The output should include four specific treatment-related fields:
@@ -192,7 +222,7 @@ def get_system_prompt_for_RAGKG():
            - "Pain/General Physiotherapist Treatments\nSession No.: General Overview\n- Specific interventions/treatments"
            - "Pain Psychologist Treatments"
            - "Pain Medicine Treatments"
-        7. In "Diagnoses (related to pain)", only output the diagnosis itself. Place all other explanations and analyses (if any) into "Explanations of diagnose".
+        7. In "Diagnoses", only output the diagnosis itself. Place all other explanations and analyses (if any) into "Explanations of diagnose".
         8. You can leave Psychologist Treatments blank if not applicable for the case, leaving text "Not applicable"
         9.If you think information is needed, guide the doctor to ask further questions which following areas to distinguish between the most likely diseases: Pain restriction; Location; Symptom. Seperate answers with ",". The output should only include aspects.
         10. The output should follow this structured format:
@@ -214,7 +244,6 @@ def get_system_prompt_for_RAGKG():
         - **Techniques**:
 
     2. **Exercise Recommendations from the Exercise List**:
-
 
     ### Pain Psychologist Treatments(if applicable)
     1. **Treatment 1**: 
